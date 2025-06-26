@@ -2,7 +2,7 @@ import Card from '../components/card';
 
 export default function Homepage(){
  return (
-   <main classname= "bg-ivory text-charcoal p-8">
+   <main className= "bg-ivory text-charcoal p-8">
 ±<header>
    <Card title = "Main Header"
    name = "Burgundary"
