@@ -1,4 +1,4 @@
-import ProductCard from '../../components/ProductCard';
+import ProductCard from '../../components/shop';
 
 type Product = {
   name: string;
