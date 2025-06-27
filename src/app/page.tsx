@@ -1,3 +1,4 @@
+import Link from 'next/link';
 "use client";
 import { useEffect } from 'react';
 
@@ -70,9 +71,9 @@ export default function Home() {
         <div className="E">
           <h2 className="text-3xl mb-4">E-commerce</h2>
           <p>An E-commerce where all our products are waiting to be bought by you</p>
-          <a href="/store" className="text-[#800020] underline">
-            Link Text
-          </a>
+          <Link href="/shop" className="text-[#800020] underline">
+            E-Commerce
+          </Link>
         </div>
       </div>
     </main>
